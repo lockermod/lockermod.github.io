@@ -1,5 +1,5 @@
 body {
-    background-color: darksalmon;
+    background-color: #cecfc6;
     background-image: url("images/sfv.png");
     background-repeat: repeat;
     color: aliceblue;
@@ -9,15 +9,42 @@ body {
 
 .center {
     display: flex;
+    left: 50%;
     align-items: center;
     justify-content: center;
 }
 
-.contentstrip-main {
-    background-color: #544;
+.navbar-button {
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-button:hover {
+    color: lightsalmon;
+}
+
+.navbar-button-small {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-button-small:hover {
+    color: lightsalmon;
+}
+
+.contentstrip-transparent {
     width: 1000px;
     left: 50%;
-    margin-left: -520px;
+    margin-left: -540px;
     position: relative;
     text-align: justify;
     align-items: center;
@@ -25,6 +52,21 @@ body {
     display: flex;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.contentstrip-main {
+    background-color: #544;
+    width: 1000px;
+    left: 50%;
+    margin-left: -540px;
+    position: relative;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .contentstrip-sub {
@@ -32,11 +74,12 @@ body {
     width: 1000px;
     position: relative;
     left: 50%;
-    margin-left: -520px;
+    margin-left: -540px;
     text-align: justify;
     align-items: center;
     justify-content: center;
     display: flex;
     padding-left: 40px;
     padding-right: 40px;
+    text-shadow: 1px 1px 2px #000000;
 }

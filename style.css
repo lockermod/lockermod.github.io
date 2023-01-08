@@ -1,0 +1,42 @@
+body {
+    background-color: darksalmon;
+    background-image: url("images/sfv.png");
+    background-repeat: repeat;
+    color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentstrip-main {
+    background-color: #544;
+    width: 1000px;
+    left: 50%;
+    margin-left: -520px;
+    position: relative;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contentstrip-sub {
+    background-color: #655;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -520px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
